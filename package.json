@@ -1,0 +1,31 @@
+{
+  "name": "form-explainer-svg-parser",
+  "version": "0.1.0",
+  "description": "Parses SVG's into JSON, for use in the Form Explainer portion of CFPB's Owning A Home.",
+  "keywords": ["svg", "json", "custom"],
+  "author": {
+    "name": "Consumer Financial Protection Bureau",
+    "url": "https://cfpb.github.io/"
+  },
+  "homepage": "https://github.com/himedlooff/form-explainer-svg-to-json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/himedlooff/form-explainer-svg-to-json.git"
+  },
+  "bugs": "https://github.com/himedlooff/form-explainer-svg-to-json/issues",
+  "licenses": [
+    {
+      "type": "Public Domain",
+      "url": "https://github.com/himedlooff/form-explainer-svg-to-json/blob/master/TERMS.md"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "buffered-reader": "*",
+    "eval":  "*",
+    "jquery":  "*",
+    "jsdom":  "*"
+  }
+}
