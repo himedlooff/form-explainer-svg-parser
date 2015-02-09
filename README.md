@@ -13,9 +13,9 @@ Node, [install it](http://nodejs.org/) however you'd like.
 
 1. Clone this repository locally
 2. Install the project's node dependencies:
-  ```bash
-  $ npm install
-  ```
+```bash
+$ npm install
+```
 
 ### Todo: Create as an NPM package for easier installation
 
